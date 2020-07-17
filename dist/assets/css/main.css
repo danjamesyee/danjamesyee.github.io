@@ -3491,7 +3491,8 @@ body.index #main {
 }
 
 .proj-img {
-  height: 230px;
+  height: 40vh;
+  width: 100%;
 }
 
 #air-center {
