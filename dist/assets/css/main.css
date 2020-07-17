@@ -2640,7 +2640,7 @@ button.small,
   height: 100%;
   z-index: -10;
 
-  background: url("images/DSC_0388.jpeg") no-repeat center center;
+  background: url("images/DSC_0388.jpeg") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
