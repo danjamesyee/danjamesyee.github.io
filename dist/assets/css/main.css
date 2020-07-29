@@ -3522,3 +3522,18 @@ body.index #main {
 #favi {
   border-radius: 10px;
 }
+
+.skill-des {
+  
+  background: white;
+  
+}
+
+.skills-row {
+  display: flex;
+  padding: 30px;
+}
+
+.skills-row > div {
+  padding: 10px;
+}
