@@ -3523,13 +3523,11 @@ body.index #main {
   border-radius: 10px;
 }
 
-.skill-des {
-  background: white;
-}
 
-.skills-row {
+#skills-row {
   display: flex;
   padding: 30px;
+  background: white;
 }
 
 .skills-row > div {
