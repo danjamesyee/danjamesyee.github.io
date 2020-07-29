@@ -3518,3 +3518,7 @@ body.index #main {
 #white-back > div {
   padding: 20px;
 }
+
+#favi {
+  border-radius: 10px;
+}
