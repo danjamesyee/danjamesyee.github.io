@@ -3523,13 +3523,16 @@ body.index #main {
   border-radius: 10px;
 }
 
-
 #skills-row {
   display: flex;
   padding: 30px;
   background: white;
 }
 
-.skills-row > div {
+#skills-row > div {
   padding: 10px;
+}
+
+.wb {
+  background-color: white;
 }
