@@ -137,13 +137,26 @@ body {
   text-align: center;
   font-size: 5.8em;
   font-weight: 900;
-  padding: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 0.1em;
 
   color: white;
 
   font-family: "Dancing Script", cursive;
 
   -webkit-text-stroke: 2.5px black;
+}
+
+#logo2 {
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 900;
+
+  color: white;
+
+  font-family: "Dancing Script", cursive;
+
+  -webkit-text-stroke: 1.5px black;
 }
 
 #intro {
@@ -161,4 +174,31 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
   line-height: 1.8;
+}
+
+.articles {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.art img {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+}
+
+.art {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.art h3 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 1.3em;
+  margin: 10px;
 }
