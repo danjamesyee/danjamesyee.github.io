@@ -1,0 +1,204 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: url("https://yeesite-dev.s3-us-west-1.amazonaws.com/outdoorclass1.jpg");
+  background-size: cover;
+  background-position: 50% 25%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+#logo {
+  text-align: center;
+  font-size: 5.8em;
+  font-weight: 900;
+  padding-top: 1.2em;
+  padding-bottom: 0.1em;
+
+  color: white;
+
+  font-family: "Dancing Script", cursive;
+
+  -webkit-text-stroke: 2.5px black;
+}
+
+#logo2 {
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 900;
+
+  color: white;
+
+  font-family: "Dancing Script", cursive;
+
+  -webkit-text-stroke: 1.5px black;
+}
+
+#intro {
+  background-color: white;
+  position: relative;
+  top: 600px;
+  display: inline-block;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#intro p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.8;
+}
+
+.articles {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.art img {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+}
+
+.art {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.art h3 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 1.3em;
+  margin: 10px;
+}
